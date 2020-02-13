@@ -26,6 +26,8 @@ main {
     width: 200px;
     background-color: #0b1723;
     z-index: 1;
+    color: #CFCECE;
+    font-size: 12px;
 }
 
 .container-nav-bottom {
@@ -80,4 +82,62 @@ main {
     padding: 10px;
     max-width: 150px;
     filter: invert();
+}
+
+#home-logo li i {
+    font-size: 16px;
+    padding: 5px 10px 0 35px;
+}
+
+#home-logo li:hover {
+    cursor: pointer;
+    color: white;
+    border-left: 3px solid #1dd05d;
+}
+
+h5 {
+    padding: 30px 0 10px 35px;
+    color: white;
+    font-size: 18px;
+}
+
+#playlist li {
+    padding: 15px 0 0 35px;
+}
+
+#playlist li i {
+    font-size: 40px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#playlist li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.fondo-barra {
+    margin: 180px 35px 10px 35px;
+}
+
+#profilo-sx {
+    list-style: none;
+    font-size: 16px;
+    color: white;
+}
+
+#profilo-sx li i {
+    list-style: none;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#profilo-sx #profilo-app i{
+    padding-bottom: 10px;
+}
+
+#profilo-sx #profilo-app {
+    color: #CFCECE;
+    font-size: 12px;
+    border-bottom: 1px solid #CFCECE;
 }
